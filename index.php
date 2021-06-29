@@ -27,7 +27,7 @@ function l1item( $i1 = NULL ): void {
 ?>
 <div class="multi-control-item leaf flex-col root">
 	<div class="flex-row">
-		<input class="leaf" value="<?= $i1[0] ?>">
+		<input class="multi-control-focus leaf" value="<?= $i1[0] ?>">
 		<button class="multi-control-up leaf">up</button>
 		<button class="multi-control-down leaf">down</button>
 		<button class="multi-control-delete leaf">delete</button>
@@ -59,7 +59,7 @@ function l2home( array $i2s ): void {
 function l2item( $i2 = NULL ): void {
 ?>
 <div class="multi-control-item leaf flex-row root">
-	<input class="leaf" value="<?= $i2 ?>">
+	<input class="multi-control-focus leaf" value="<?= $i2 ?>">
 	<button class="multi-control-up leaf">up</button>
 	<button class="multi-control-down leaf">down</button>
 	<button class="multi-control-delete leaf">delete</button>
@@ -74,7 +74,7 @@ function l2item( $i2 = NULL ): void {
 		<title>Multi Control</title>
 		<link rel="stylesheet" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-		<script src="multi-control.js"></script>
+		<script src="script.js"></script>
 	</head>
 	<body class="flex-col root">
 		<h1 class="leaf">Multi Control</h1>
