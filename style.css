@@ -1,0 +1,24 @@
+.flex-row {
+	display: flex;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.root {
+	padding: 4px;
+}
+.root .leaf {
+	margin: 4px;
+}
+
+.multi-control-home {
+	border: solid thin;
+}
+.multi-control-list {
+	border: dashed thin;
+}
+.multi-control-item {
+	border: dotted thin;
+}
